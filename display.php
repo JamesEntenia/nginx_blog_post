@@ -1,8 +1,8 @@
 <?php
 $servername = "website-db.c50nksw01vcv.ap-east-1.rds.amazonaws.com";
-$username = "your-username";
-$password = "your-password";
-$dbname = "your-database-name";
+$username = "user_db";
+$password = "training";
+$dbname = "wp_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
